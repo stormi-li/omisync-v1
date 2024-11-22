@@ -4,7 +4,7 @@ go 1.23.2
 
 require (
 	github.com/go-redis/redis/v8 v8.11.5
-	github.com/stormi-li/omipc-v1 v1.0.5
+	github.com/stormi-li/omipc-v1 v1.0.6
 )
 
 require github.com/google/uuid v1.6.0

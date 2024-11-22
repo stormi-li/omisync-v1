@@ -41,7 +41,7 @@ func (l *Lock) Lock() {
 			break
 		} else {
 			//阻塞三秒，阻塞时可以被唤醒
-			l.omipcClient.Wait(l.lockName, block_wait_time)
+			l.omipcClient.Listen(l.lockName, block_wait_time)
 		}
 	}
 }
